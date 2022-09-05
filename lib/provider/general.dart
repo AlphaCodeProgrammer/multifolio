@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 class General with ChangeNotifier {
   String testNote = "this is a test";
+  String token = "Bearer";
+  String userId = "m490Hflg8GdlH8324Hf";
 
-  
 //////////////////////// theme information  /////////////////////////////////////////////////////
 
   ThemeData lightTheme = ThemeData(
@@ -60,6 +61,5 @@ class General with ChangeNotifier {
   }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
 
 }
